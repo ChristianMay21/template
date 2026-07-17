@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:vanilla-extract.style)",
+      "Bash(curl -s https://code.claude.com/docs/en/memory)"
+    ],
+      "autoMemoryEnabled": false
+  }
+}
