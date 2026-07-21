@@ -4,7 +4,7 @@ This document is aimed at the human developer. Not any AI agents that may work o
 
 ## Starting Up
 1. Run `sbx login` to make sure you are logged in to docker
-2. To start a new sandbox: Run `sbx run pi --name pi-sandbox`. Note that `pi-sandbox` is an arbitrary name.
+2. To start a new sandbox: Run `sbx run pi --kit ./pi --name pi-sandbox`. Note that `pi-sandbox` is an arbitrary name.
 3. To resume previous sandbox: `sbx run pi-sandbox`
 4. Select 'open' (allow network traffic)
 

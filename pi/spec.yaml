@@ -4,7 +4,6 @@ name: pi
 agent:
   image: docker/sandbox-templates:shell-docker
   aiFilename: AGENTS.md
-  persistence: persistent
   entrypoint:
     run: [pi]
 
